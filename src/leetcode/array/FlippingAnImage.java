@@ -1,4 +1,4 @@
-package leetcode.Array;
+package leetcode.array;
 
 /**
  * 翻转图像
