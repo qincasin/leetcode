@@ -10,6 +10,7 @@
 |   |--FairCandySwap.java  公平糖果交换
 |   |--MaxConsecutiveOnes.java  找出给定数组中最大连续1的个数
 |   |--MonotonicArray.java  单调数据
+|   |--FindAllNumbersDisappearedInAnArray.java 找出数组中所有不出现的数值
 
 
 ```
