@@ -12,6 +12,7 @@
 |   |--MonotonicArray.java  单调数据
 |   |--FindAllNumbersDisappearedInAnArray.java 找出数组中所有不出现的数值
 |   |--MajorityElement 数组中多数派元素
+|   |--Degree of an Array 数组的度
 
 
 ```
