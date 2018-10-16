@@ -14,5 +14,9 @@
 |   |--MajorityElement 数组中多数派元素
 |   |--Degree of an Array 数组的度
 
+|-- List
+|   |--MergeTwoSortedLists.java  合并给定顺序的两个链表
+
+
 
 ```
