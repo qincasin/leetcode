@@ -17,6 +17,17 @@
 |-- List
 |   |--MergeTwoSortedLists.java  合并给定顺序的两个链表
 
+|-- Bit
+|   |--461.HammingDistance.java  hanming距离
+|   |--191.NumberOf1Bits.java  1的bit数
+
+|-- String
+|   |--709.ToLowerCase.java  字符串转换小写
+|   |--804.UniqueMorseCodeWords.java  唯一的莫斯单词
+
+|-- Hash
+|   |--771.JewelsAndStones.java  宝石和石头
+
 
 
 ```
