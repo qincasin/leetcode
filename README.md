@@ -13,6 +13,8 @@
 |   |--FindAllNumbersDisappearedInAnArray.java 找出数组中所有不出现的数值
 |   |--MajorityElement 数组中多数派元素
 |   |--Degree of an Array 数组的度
+|   |--268. Missing Number 缺失的数字
+
 
 |-- List
 |   |--MergeTwoSortedLists.java  合并给定顺序的两个链表
