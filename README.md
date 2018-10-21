@@ -31,5 +31,16 @@
 |   |--771.JewelsAndStones.java  宝石和石头
 
 
+|-- 周赛
+|   |--107
+|   |--|--926. Flip String to Monotone Increasing 单调递增的字符串
+|   |--|--925. Long Pressed Name  长按名称
+|   |--|--927. Three Equal Parts  三个相同部分
+|   |--|--928. Minimize Malware Spread II  最大限度的减少恶意软件传播II
+    
+
+
+
+
 
 ```
