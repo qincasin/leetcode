@@ -25,7 +25,7 @@
 hs_err_pid*
 
 /.idea/
-/out/
+
 /*.iml
 # in directory: C:/coding/java-space/interview
 git rm --cached --force ".idea/misc.xml"
@@ -35,3 +35,4 @@ git rm --cached --force ".idea/modules.xml"
 git rm --cached --force ".idea/inspectionProfiles/Project_Default.xml"
 git rm --cached --force "interview.iml"
 
+.idea

@@ -30,6 +30,9 @@
 |-- Hash
 |   |--771.JewelsAndStones.java  宝石和石头
 
+|--Sort
+|   |--242. Valid Anagram
+      
 
 |-- 周赛
 |   |--107
