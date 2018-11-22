@@ -23,6 +23,7 @@
 |   |--461.HammingDistance.java  hanming距离
 |   |--191.NumberOf1Bits.java  1的bit数
 |   |--136.Single Number  单个数字(包含bit/hash方法)
+|   |--137.Single Number II  单个数字 (bit方法)
 
 |-- String
 |   |--709.ToLowerCase.java  字符串转换小写
