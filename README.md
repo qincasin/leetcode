@@ -4,7 +4,7 @@
 ---
 Update time: Sun Nov 25 21:30:40 CST 2018
 
-I have solved **78/941** problems while **861** problems are still locked.
+I have solved **80 / 941** problems while **861** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -22,6 +22,7 @@ I have solved **78/941** problems while **861** problems are still locked.
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/DegreeOfAnArray.java) | Array | 数组分组I | Easy |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/FlipStringtoMonotoneIncreasing.java) | Array | 单调递增的字符串 | Medium |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/ValidMountainArray.java) | Array | 验证山峰数组 | Medium |
+| 55  | [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/JumpGame.java) | Array |  | Medium |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/MergeTwoSortedLists.java) | Linked List | 合并给定顺序的两个链表 | Easy |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/HammingDistance.java) | Bit | hanming距离 | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/NumberOf1Bits.java) | Bit | 1的bit数 | Easy |
@@ -30,6 +31,7 @@ I have solved **78/941** problems while **861** problems are still locked.
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ToLowerCase.java) | String | 字符串转换小写 | Easy |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/UniqueMorseCodeWords.java) | String | 唯一的莫斯单词 | Easy |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/JewelsAndStones.java) | Hash | 宝石和石头 | Easy |
+| 771 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/TwoSum.java) | Hash | 两数之和 | Easy |
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 
