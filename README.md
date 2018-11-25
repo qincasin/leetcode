@@ -2,7 +2,7 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: 2018年 11月 25日 星期日 20:16:35 CST
+Update time: Sun Nov 25 21:30:40 CST 2018
 
 I have solved **78/941** problems while **861** problems are still locked.
 
