@@ -1,4 +1,4 @@
-package leetcode.string;
+package string;
 
 /**
  * 709. To Lower Case

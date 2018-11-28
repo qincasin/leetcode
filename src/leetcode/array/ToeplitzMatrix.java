@@ -1,4 +1,4 @@
-package leetcode.array;
+package array;
 
 /**
  * Toeplitz矩阵

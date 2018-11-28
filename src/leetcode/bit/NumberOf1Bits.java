@@ -1,4 +1,4 @@
-package leetcode.bit;
+package bit;
 
 /**
  * 191. Number of 1 Bits

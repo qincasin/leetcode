@@ -1,4 +1,4 @@
-package leetcode.bit;
+package bit;
 
 /**
  * 461. Hamming Distance

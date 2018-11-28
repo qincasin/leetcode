@@ -1,4 +1,4 @@
-package leetcode.contest._107;
+package contest._107;
 
 /**
  * 926. Flip String to Monotone Increasing

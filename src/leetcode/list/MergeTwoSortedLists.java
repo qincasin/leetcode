@@ -1,4 +1,4 @@
-package leetcode.list;
+package list;
 
 /**
  * 21. Merge Two Sorted Lists
