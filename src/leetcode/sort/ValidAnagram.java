@@ -1,8 +1,10 @@
 package sort;
 
 import java.util.Arrays;
+import java.util.Date;
 
 /**
+ * 242. Valid Anagram
  * Given two strings s and t , write a function to determine if t is an anagram of s.
  */
 public class ValidAnagram {
@@ -63,10 +65,39 @@ public class ValidAnagram {
 
     }
 
+    /**
+     *  Wed Nov 28 21:07:55 CST 2018
+     * 第二次刷
+     * @param s
+     * @param t
+     * @return
+     */
+    public boolean isAnagram3(String s, String t) {
+        if(s.length()!=t.length()){
+            return false;
+        }
+        int[] arr = new int[256];
+        for (int i = 0; i < s.length(); i++) {
+            arr[s.charAt(i)]++;
+        }
+        for (int i = 0; i < t.length(); i++) {
+            arr[t.charAt(i)]--;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]!=0){
+                return false;
+            }
+        }
+        return true;
+
+    }
+
+
 
     public static void main(String[] args) {
         ValidAnagram validAnagram = new ValidAnagram() ;
-        Boolean result = validAnagram.isAnagram("ab","a");
+        Boolean result = validAnagram.isAnagram3("ab","ba");
+        System.out.println(new Date());
         System.out.println(result);
     }
 
