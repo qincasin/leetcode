@@ -81,6 +81,28 @@ public class SortArrayByParity {
         return res;
     }
 
+    /**
+     * time:Wed Nov 28 21:49:05 CST 2018
+     * 三刷
+     * 交换
+     * @param A
+     * @return
+     */
+    public int[] sortArrayByParity3(int[] A) {
+        for (int i = 0,j=0; j < A.length; j++) {
+            if(A[j]%2==0){
+                int tmp = A[i];
+                A[i++]= A[j];
+                A[j] = tmp;
+            }
+        }
+
+
+        return A;
+    }
+
+
+
 
     public static void main(String[] args) {
 
