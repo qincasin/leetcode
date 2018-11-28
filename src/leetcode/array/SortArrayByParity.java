@@ -1,6 +1,7 @@
 package leetcode.array;
 
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  *
@@ -29,7 +30,7 @@ public class SortArrayByParity {
 
 
 
-    public static int[] sortArrayByParity(int[] A) {
+    public  int[] sortArrayByParity(int[] A) {
 
         int[] res = new int[A.length];
 
@@ -58,11 +59,39 @@ public class SortArrayByParity {
         return A;
     }
 
-    public static void main(String[] args) {
-        int[] A = {0,1,2};
-        int[] res = sortArrayByParity(A);
-        System.out.println(Arrays.toString(res));
+    /**
+     * time: Wed Nov 28 21:29:11 CST 2018
+     * 二刷
+     *
+     * @param A
+     * @return
+     */
+    public int[] sortArrayByParity2(int[] A) {
+        int[] res = new int[A.length];
+        int i = 0;
+        int j = A.length-1;
+        for (int a:A) {
+            if(a%2==0) {
+                res[i++]=a;
+            }else {
+                res[j--]=a;
+            }
+        }
+
+        return res;
     }
+
+
+    public static void main(String[] args) {
+
+        SortArrayByParity sortArrayByParity = new SortArrayByParity();
+        int[] A = {0,1,2};
+        int[] res = sortArrayByParity.sortArrayByParity2(A);
+        System.out.println(Arrays.toString(res));
+        System.out.println(new Date());
+    }
+
+
 
 
 }
