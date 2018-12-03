@@ -30,6 +30,8 @@ I have solved **80 / 941** problems while **861** problems are still locked.
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/SingleNumber2.java) | Bit | 单个数字 (bit方法) | Easy |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ToLowerCase.java) | String | 字符串转换小写 | Easy |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/UniqueMorseCodeWords.java) | String | 唯一的莫斯单词 | Easy |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseString.java) | String | 翻转字符串 | Easy |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseVowelsOfAString.java) | String | 翻转元音字符串 | Easy |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/JewelsAndStones.java) | Hash | 宝石和石头 | Easy |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/TwoSum.java) | Hash | 两数之和 | Easy |
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
