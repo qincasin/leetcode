@@ -2,6 +2,7 @@ package sort;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Queue;
 
 /**
@@ -116,6 +117,7 @@ public class SortArrayByParityII {
         int[] arr = new int[]{4,2,5,7};
         int[] res = sortArrayByParityII.sortArrayByParityII3(arr);
         System.out.println(Arrays.toString(res));
+        System.out.println(new Date());
     }
 
 }
