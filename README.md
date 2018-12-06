@@ -2,9 +2,9 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Tue Dec 04 13:24:42 CST 2018
+Update time: Thu Dec 06 21:02:48 CST 2018
 
-I have solved **81  / 945** problems while **863** problems are still locked.
+I have solved **82  / 945** problems while **862** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -34,6 +34,7 @@ I have solved **81  / 945** problems while **863** problems are still locked.
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseVowelsOfAString.java) | String | 翻转元音字符串 | Easy |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/JewelsAndStones.java) | Hash | 宝石和石头 | Easy |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/TwoSum.java) | Hash | 两数之和 | Easy |
+| 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/LongestHarmoniousSubsequence.java) | Hash | 最长和谐子序列的长度 | Easy |
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/SortArrayByParityII.java) | Sort | 奇偶顺序排序 | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |

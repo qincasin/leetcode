@@ -34,5 +34,6 @@ git rm --cached --force ".idea/compiler.xml"
 git rm --cached --force ".idea/modules.xml"
 git rm --cached --force ".idea/inspectionProfiles/Project_Default.xml"
 git rm --cached --force "interview.iml"
+*.kotlin_module
 
 .idea
