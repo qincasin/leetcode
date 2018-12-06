@@ -4,7 +4,7 @@
 ---
 Update time: Sun Nov 25 21:30:40 CST 2018
 
-I have solved **80 / 941** problems while **861** problems are still locked.
+I have solved **80 / 945** problems while **864** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
