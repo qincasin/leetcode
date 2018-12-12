@@ -2,9 +2,9 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Sun Dec 09 16:36:39 CST 2018
+Update time: Wed Dec 12 17:29:37 CST 2018
 
-I have solved **84  / 949** problems while **864** problems are still locked.
+I have solved **86 / 949** problems while **862** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -24,6 +24,8 @@ I have solved **84  / 949** problems while **864** problems are still locked.
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/ValidMountainArray.java) | Array | 验证山峰数组 | Medium |
 | 55  | [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/JumpGame.java) | Array |  | Medium |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/MergeTwoSortedLists.java) | Linked List | 合并给定顺序的两个链表 | Easy |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/PalindromeLinkedList.java) | Linked List | 回文单链表翻转 | Easy |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/ReverseLinkedList.java) | Linked List | 单链表翻转 | Easy |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/HammingDistance.java) | Bit | hanming距离 | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/NumberOf1Bits.java) | Bit | 1的bit数 | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/SingleNumber.java) | Bit | 单个数字(包含bit/hash方法) | Easy |
