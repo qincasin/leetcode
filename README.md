@@ -2,9 +2,9 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Wed Dec 12 17:29:37 CST 2018
+Update time: Thu Dec 13 10:27:17 CST 2018
 
-I have solved **86 / 949** problems while **862** problems are still locked.
+I have solved **87 / 949** problems while **861** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -35,6 +35,7 @@ I have solved **86 / 949** problems while **862** problems are still locked.
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseString.java) | String | 翻转字符串 | Easy |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseVowelsOfAString.java) | String | 翻转元音字符串 | Easy |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ValidPalindrome.java) | String | 验证回文串 | Easy |
+| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/PalindromeNumber.java) | String | 回文数字 | Easy |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/JewelsAndStones.java) | Hash | 宝石和石头 | Easy |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/TwoSum.java) | Hash | 两数之和 | Easy |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/LongestHarmoniousSubsequence.java) | Hash | 最长和谐子序列的长度 | Easy |
