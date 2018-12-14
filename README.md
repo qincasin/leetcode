@@ -2,9 +2,9 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Sun Dec 09 16:36:39 CST 2018
+Update time: Thu Dec 13 10:27:17 CST 2018
 
-I have solved **84  / 949** problems while **864** problems are still locked.
+I have solved **87 / 949** problems while **861** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -24,6 +24,8 @@ I have solved **84  / 949** problems while **864** problems are still locked.
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/ValidMountainArray.java) | Array | 验证山峰数组 | Medium |
 | 55  | [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/array/JumpGame.java) | Array |  | Medium |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/MergeTwoSortedLists.java) | Linked List | 合并给定顺序的两个链表 | Easy |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/PalindromeLinkedList.java) | Linked List | 回文单链表翻转 | Easy |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/list/ReverseLinkedList.java) | Linked List | 单链表翻转 | Easy |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/HammingDistance.java) | Bit | hanming距离 | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/NumberOf1Bits.java) | Bit | 1的bit数 | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/SingleNumber.java) | Bit | 单个数字(包含bit/hash方法) | Easy |
@@ -32,6 +34,8 @@ I have solved **84  / 949** problems while **864** problems are still locked.
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/UniqueMorseCodeWords.java) | String | 唯一的莫斯单词 | Easy |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseString.java) | String | 翻转字符串 | Easy |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseVowelsOfAString.java) | String | 翻转元音字符串 | Easy |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ValidPalindrome.java) | String | 验证回文串 | Easy |
+| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/PalindromeNumber.java) | String | 回文数字 | Easy |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/JewelsAndStones.java) | Hash | 宝石和石头 | Easy |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/TwoSum.java) | Hash | 两数之和 | Easy |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/LongestHarmoniousSubsequence.java) | Hash | 最长和谐子序列的长度 | Easy |
