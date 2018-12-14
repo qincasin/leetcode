@@ -44,7 +44,6 @@ I have solved **87 / 949** problems while **861** problems are still locked.
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/SortArrayByParityII.java) | Sort | 奇偶顺序排序 | Easy |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/LongestWordInDictionaryThroughDeleting.java) | Sort | 通过删除给定的字符串找到最小字典顺序的最长单词 | Medium |
-
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 
           
