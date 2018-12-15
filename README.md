@@ -2,7 +2,7 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Thu Dec 13 10:27:17 CST 2018
+Update time: Sat Dec 15 15:04:07 CST 2018
 
 I have solved **87 / 949** problems while **861** problems are still locked.
 
@@ -30,6 +30,7 @@ I have solved **87 / 949** problems while **861** problems are still locked.
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/NumberOf1Bits.java) | Bit | 1的bit数 | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/SingleNumber.java) | Bit | 单个数字(包含bit/hash方法) | Easy |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/SingleNumber2.java) | Bit | 单个数字 (bit方法) | Easy |
+| 754 | [Reach a Number](https://leetcode.com/problems/reach-a-number/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/bit/ReachANumber.java) | Bit | 到达一个目标数字的最少步数  | Easy |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ToLowerCase.java) | String | 字符串转换小写 | Easy |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/UniqueMorseCodeWords.java) | String | 唯一的莫斯单词 | Easy |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/string/ReverseString.java) | String | 翻转字符串 | Easy |
