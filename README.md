@@ -2,7 +2,7 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Sat Dec 15 15:04:07 CST 2018
+Update time: Sun Dec 16 23:15:37 CST 2018
 
 I have solved **89 / 949** problems while **859** problems are still locked.
 
@@ -45,6 +45,7 @@ I have solved **89 / 949** problems while **859** problems are still locked.
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/SortArrayByParityII.java) | Sort | 奇偶顺序排序 | Easy |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/LongestWordInDictionaryThroughDeleting.java) | Sort | 通过删除给定的字符串找到最小字典顺序的最长单词 | Medium |
+| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/CheckCompletenessOfABinaryTree.java) | Tree | 验证完全二叉树 | Medium |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 
           

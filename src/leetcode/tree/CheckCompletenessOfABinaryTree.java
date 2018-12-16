@@ -1,5 +1,6 @@
 package tree;
 
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -75,7 +76,7 @@ public class CheckCompletenessOfABinaryTree {
 
     public static void main(String[] args) {
         CheckCompletenessOfABinaryTree solution = new CheckCompletenessOfABinaryTree();
-
+        System.out.println(new Date());
 
 
     }
