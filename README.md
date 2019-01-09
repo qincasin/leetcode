@@ -4,7 +4,7 @@
 ---
 Update time: Wed Jan 09 12:37:09 CST 2019
 
-I have solved **92 / 966** problems while **873** problems are still locked.
+I have solved **93 / 966** problems while **872** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -44,6 +44,7 @@ I have solved **92 / 966** problems while **873** problems are still locked.
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/SubdomainVisitCount.java) | Hash | 子域名访问计数 | Easy |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/ContiguousArray.java) | Hash | 连续数组 | Medium |
 | 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/NRepeatedElementInSize2NArray.java) | Hash | 2N矩阵中N重复元素 | Easy |
+| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/KeyboardRow.java) | Hash | 键盘行数 | Easy |
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/SortArrayByParityII.java) | Sort | 奇偶顺序排序 | Easy |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/LongestWordInDictionaryThroughDeleting.java) | Sort | 通过删除给定的字符串找到最小字典顺序的最长单词 | Medium |
