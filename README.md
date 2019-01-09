@@ -42,11 +42,12 @@ I have solved **89 / 949** problems while **859** problems are still locked.
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/LongestHarmoniousSubsequence.java) | Hash | 最长和谐子序列的长度 | Easy |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/SingleElementInASortedArray.java) |  | 数组中找出single元素 | Medium |
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/SubdomainVisitCount.java) | Hash | 子域名访问计数 | Easy |
+| 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/hash/ContiguousArray.java) | Hash | 连续数组 | Medium |
 | 242 | [ Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/ValidAnagram.java) | Sort |  | Easy |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/SortArrayByParityII.java) | Sort | 奇偶顺序排序 | Easy |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/LongestWordInDictionaryThroughDeleting.java) | Sort | 通过删除给定的字符串找到最小字典顺序的最长单词 | Medium |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/CheckCompletenessOfABinaryTree.java) | Tree | 验证完全二叉树 | Medium |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 
-          
+
       
