@@ -2,9 +2,9 @@
 # Leetcode Solutions with Java
 
 ---
-Update time: Wed Jan 09 12:37:09 CST 2019
+Update time: Thu Jan 10 10:22:04 CST 2019
 
-I have solved **93 / 966** problems while **872** problems are still locked.
+I have solved **95 / 966** problems while **870** problems are still locked.
 
 | # | Title | Source Code | Related Topics | Explanation | Difficulty|
 |:---:|:---:|:---:|:---:|:---:|:---:|
