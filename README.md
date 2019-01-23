@@ -52,6 +52,6 @@ I have solved **95 / 966** problems while **870** problems are still locked.
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/sort/LongestWordInDictionaryThroughDeleting.java) | Sort | 通过删除给定的字符串找到最小字典顺序的最长单词 | Medium |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/CheckCompletenessOfABinaryTree.java) | Tree | 验证完全二叉树 | Medium |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
-
+| 343 | [ Integer Break ](https://leetcode.com/problems/integer-break/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/math/IntegerBreak.java) | Math | 数字拆分 | Medium |
 
       
