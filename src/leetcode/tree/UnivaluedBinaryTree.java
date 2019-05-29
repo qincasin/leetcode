@@ -1,5 +1,6 @@
 package leetcode.tree;
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -48,7 +49,7 @@ public class UnivaluedBinaryTree<puv> {
         inOrder(root.right,set);
     }
 
-
-
-
+    public static void main(String[] args) {
+        System.out.println(new Date());
+    }
 }
