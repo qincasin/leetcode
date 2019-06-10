@@ -38,6 +38,28 @@ public interface Tree<T extends Comparable> {
     String preOrder();
 
     /**
+     * 非递归实现先序遍历
+     *
+     * @return
+     */
+    String preOrderTraverse();
+
+    /**
+     * 非递归实现中序遍历
+     *
+     * @return
+     */
+    String postOrderTraverse();
+
+    /**
+     * 非递归实现后序遍历
+     *
+     * @return
+     */
+    String inOrderTraverse();
+
+
+    /**
      * 中序遍历
      *
      * @return
