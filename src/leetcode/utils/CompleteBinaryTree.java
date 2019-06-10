@@ -36,14 +36,15 @@ public class CompleteBinaryTree<T extends Comparable> extends BinarySearchTree<T
 
     return p;
   }
+
   @Override
-  public boolean contains(T data){
+  public boolean contains(T data) {
     Queue<BinaryNode<T>> queue = new LinkedList<>();
     StringBuffer sb = new StringBuffer();
     BinaryNode<T> p = this.root;
-    while (p!=null){
+    while (p != null) {
       //判断p是否存在data
-      if(data.compareTo(p.data)==0){
+      if (data.compareTo(p.data) == 0) {
         return true;
       }
       //先按照层序遍历节点，左节点一定在右节点之前访问
@@ -62,16 +63,15 @@ public class CompleteBinaryTree<T extends Comparable> extends BinarySearchTree<T
   }
 
   public static void main(String[] args) {
-    String[] levelOrderArray = {"A","B","C","D","E","F"};
+    String[] levelOrderArray = {"A", "B", "C", "D", "E", "F"};
     CompleteBinaryTree<String> cbtree = new CompleteBinaryTree<>(levelOrderArray);
-    System.out.println("先序遍历:"+cbtree.preOrder());
-    System.out.println("中序遍历:"+cbtree.inOrder());
-    System.out.println("后序遍历:"+cbtree.postOrder());
-    System.out.println("层序遍历:"+cbtree.levelOrder());
-    System.out.println("查找最大节点:"+cbtree.findMax());
-    System.out.println("查找最小节点:"+cbtree.findMin());
+    System.out.println("先序遍历:" + cbtree.preOrder());
+    System.out.println("中序遍历:" + cbtree.inOrder());
+    System.out.println("后序遍历:" + cbtree.postOrder());
+    System.out.println("层序遍历:" + cbtree.levelOrder());
+    System.out.println("查找最大节点:" + cbtree.findMax());
+    System.out.println("查找最小节点:" + cbtree.findMin());
   }
-
 
 
 }
