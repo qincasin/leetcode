@@ -56,7 +56,10 @@ I have solved **107 / 1077** problems while **970** problems are still locked.
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/UnivaluedBinaryTree.java) | Tree | 唯一二叉树 |Easy |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/SearchInABinarySearchTree.java) | Tree | BST查找 | Easy |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/MergeTwoBinaryTrees.java) | Tree | merge两个二叉树 | Easy |
-
+| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/merge-two-binary-trees/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/NAryTreePreorderTraversal.java) | Tree | 三叉树的前序遍历 | Easy |
+| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/NAryTreePostorderTraversal.java) | Tree | 三叉树的后续遍历 | Easy |
+| 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/MaximumDepthOfNAryTree.java) | Tree | 求三叉树的深度 | Easy |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/MaximumDepthOfBinaryTree.java) | Tree | 求二叉树的深度 | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 | 343 | [ Integer Break ](https://leetcode.com/problems/integer-break/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/math/IntegerBreak.java) | Math | 数字拆分 | Medium |
 
