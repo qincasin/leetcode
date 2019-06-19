@@ -61,6 +61,7 @@ I have solved **109 / 1092** problems while **981** problems are still locked.
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/MaximumDepthOfNAryTree.java) | Tree | 求三叉树的深度 | Easy |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/MaximumDepthOfBinaryTree.java) | Tree | 求二叉树的深度 | Easy |
 | 987 | [Increasing Order Search Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/IncreasingOrderSearchTree.java) | Tree | 递增顺序查找树 | Easy |
+| 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/Leaf_SimilarTrees.java) | Tree | 叶子节点相似的树 | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 | 343 | [ Integer Break ](https://leetcode.com/problems/integer-break/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/math/IntegerBreak.java) | Math | 数字拆分 | Medium |
 
