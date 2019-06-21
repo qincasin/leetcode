@@ -66,6 +66,7 @@ I have solved **114 / 1092** problems while **976** problems are still locked.
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/AverageOfLevelsInBinaryTree.java) | Tree | 二叉树的层平均值 | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/InvertBinaryTree.java) | Tree | 翻转二叉树 | Easy |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/SumOfRootToLeafBinaryNumbers.java) | Tree | 从根到叶的二进制数之和 | Easy |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/CousinsInBinaryTree.java) | Tree | 堂兄弟节点 | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 | 343 | [ Integer Break ](https://leetcode.com/problems/integer-break/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/math/IntegerBreak.java) | Math | 数字拆分 | Medium |
 
