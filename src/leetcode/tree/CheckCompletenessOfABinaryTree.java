@@ -14,6 +14,7 @@ class TreeNode {
 
 /**
  * https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/
+ * 校验二叉树是否是完全二叉树
  * 958. Check Completeness of a Binary Tree
  *
  * Given a binary tree, determine if it is a complete binary tree.
