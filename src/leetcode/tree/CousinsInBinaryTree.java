@@ -87,7 +87,48 @@ public class CousinsInBinaryTree {
 //    node.right.left = new TreeNode(6);
     node.right.right= new TreeNode(5);
     CousinsInBinaryTree solution = new CousinsInBinaryTree();
-    boolean result = solution.isCousins(node, 5, 4);
+    boolean result = solution.isCousins2(node, 5, 4);
     System.out.println(result);
   }
+
+  /**
+   * 当且仅当一对节点深度相同而父节点不相同时，它们是堂兄弟节点。一种非常直接的方法就是通过某种方法求出每一个节点的深度与父节点。
+   * 我们用深度优先搜索标记每一个节点，对于每一个节点 node，它的父亲为 par，深度为 d，我们将其记录到 Hashmap 中：parent[node.val] = par 且 depth[node.val] = d
+   * 时间复杂度：O(N)，其中 N 是给定树中节点的数量
+   * 空间复杂度：O(N)
+   * @param root
+   * @param x
+   * @param y
+   * @return
+   */
+  public boolean isCousins2(TreeNode root, int x, int y) {
+    depth = new HashMap<>();
+    parent = new HashMap<>();
+    dfs2(root,null);
+    return (depth.get(x).equals(depth.get(y))&&(parent.get(x)!=parent.get(y)));
+  }
+
+  private void dfs2(TreeNode root,TreeNode par){
+    if (root == null) {
+      return;
+    }
+    depth.put(root.val,par!=null?1+depth.get(par.val):0);
+    parent.put(root.val,par);
+    dfs2(root.left,root);
+    dfs2(root.right,root);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
