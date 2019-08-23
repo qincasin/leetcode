@@ -69,5 +69,6 @@ I have solved **114 / 1092** problems while **976** problems are still locked.
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/tree/CousinsInBinaryTree.java) | Tree | 堂兄弟节点 | Easy |
 | 925 | [ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/contest/_107/LongPressedName.java) | two point / String | 长按名称 | Easy |
 | 343 | [ Integer Break ](https://leetcode.com/problems/integer-break/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/math/IntegerBreak.java) | Math | 数字拆分 | Medium |
+| 491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Java](https://github.com/qincasin/interview/blob/master/src/leetcode/dfs/IncreasingSubsequences.java) | dfs | 递增序列 | Medium |
 
       
