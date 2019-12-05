@@ -24,6 +24,9 @@ public class Foo {
 
     while (!count.compareAndSet(1,2)){
 
+
+
+
       // printSecond.run() outputs "second". Do not change or remove this line.
     }
     printSecond.run();
