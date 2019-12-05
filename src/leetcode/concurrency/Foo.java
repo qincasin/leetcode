@@ -20,6 +20,7 @@ public class Foo {
     printFirst.run();
   }
 
+
   public void second(Runnable printSecond) throws InterruptedException {
 
     while (!count.compareAndSet(1,2)){
