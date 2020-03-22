@@ -1,5 +1,7 @@
 package com.qjx.leetcode.list;
 
+import com.qjx.leetcode.common.ListNode;
+
 /**
  * 21. Merge Two Sorted Lists
  *Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
@@ -14,19 +16,6 @@ package com.qjx.leetcode.list;
 
 public class MergeTwoSortedLists {
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
 
     /**
      * dummy list，新建一个链表，然后两个链表中从头各取一个元素进行比较，小的写入新链表，直到结束，返回dummy.next。

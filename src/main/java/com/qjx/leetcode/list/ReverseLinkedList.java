@@ -1,5 +1,7 @@
 package com.qjx.leetcode.list;
 
+import com.qjx.leetcode.common.ListNode;
+
 import java.util.Date;
 
 /**
@@ -48,22 +50,6 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
 
     public static void main(String[] args) {
         ReverseLinkedList solution = new  ReverseLinkedList();
