@@ -3,9 +3,11 @@ package com.qjx.leetcode.list;
 import com.qjx.leetcode.common.ListNode;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+ *  建议使用 PriorityQueue 方法解决该类题目
  * <p>
  * Example:
  * <p>
@@ -88,6 +90,38 @@ public class MergeKSortedLists {
         return l2;
     }
 
+    /**
+     * 针对这种题目 建议使用该方法解题
+     * @param lists
+     * @return
+     */
+    public static ListNode mergeKLists2(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        //排序
+        PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length,(a,b)->a.val-b.val);
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+
+        for (ListNode list : lists) {
+            if (list != null) {
+                queue.add(list);
+            }
+        }
+
+        while (!queue.isEmpty()) {
+            cur.next = queue.poll();
+            cur = cur.next;
+            if (cur.next != null) {
+                queue.add(cur.next);
+            }
+        }
+        return dummy.next;
+
+
+    }
+
 
     public static void main(String[] args) {
         ListNode n1 = new ListNode(1);
@@ -108,7 +142,7 @@ public class MergeKSortedLists {
 
         System.out.println(Arrays.toString(listNodes));
 
-        ListNode listNode = mergeKLists(listNodes);
+        ListNode listNode = mergeKLists2(listNodes);
         System.out.println(listNode);
 
 
