@@ -50,6 +50,49 @@ public class PartitionList {
         return lessHead.next;
     }
 
+
+    /**
+     * 使用两个临时节点，smallNode 存储 < x ,bigNode 存储 >= x的 节点
+     * @param head
+     * @param x
+     * @return
+     */
+    public static ListNode partition2(ListNode head, int x) {
+        ListNode smallNode = new ListNode(0);
+        ListNode bigNode = new ListNode(0);
+        ListNode small = smallNode;
+        ListNode big = bigNode;
+
+        while (head!=null){
+            if(head.val<x){
+                small.next = head;
+                small = head;
+            }else {
+                //最后一轮 big 为 5 -> 2 -> null
+                big.next = head;
+                big = head;
+            }
+            head = head.next;
+        }
+
+        //big.next: 2->null,   -->   5->null
+        big.next = null;
+        small.next = bigNode.next;
+
+        return smallNode.next;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(4);
@@ -58,7 +101,9 @@ public class PartitionList {
         listNode.next.next.next.next = new ListNode(5);
         listNode.next.next.next.next.next = new ListNode(2);
         int x = 3;
-        ListNode partition = partition(listNode, x);
+        ListNode partition = partition2(listNode, x);
         System.out.println(partition);
     }
+
+
 }
