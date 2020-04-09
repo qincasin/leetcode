@@ -53,18 +53,46 @@ public class ReverseLinkedList2 {
         return result;
     }
 
+
+    public ListNode reverseBetween2(ListNode head, int m, int n) {
+        int len = n - m + 1;
+
+        ListNode result = head;
+        ListNode pre = null;
+        while (head != null && --m > 0) {
+            pre = head;
+            head = head.next;
+        }
+
+        ListNode tail = head;
+        ListNode mid = null;
+        while (head != null && len-- > 0) {
+            ListNode next = head.next;
+            head.next = mid;
+            mid = head;
+            head = next;
+        }
+        tail.next = head;
+        if (pre != null) {
+            pre.next = mid;
+        } else {
+            result = mid;
+        }
+        return result;
+    }
+
+
     public static void main(String[] args) {
         ReverseLinkedList2 solution = new ReverseLinkedList2();
         ListNode node = new ListNode(1);
         node.next = new ListNode(2);
         node.next.next = new ListNode(3);
-        System.out.println(node);
-//        ListNode res = solution.reverseList2(node);
-//        System.out.println(res);
-//        System.out.println(new Date());
+        node.next.next.next = new ListNode(4);
+        node.next.next.next.next = new ListNode(5);
+
+        ListNode res = solution.reverseBetween2(node, 3, 5);
+        System.out.println(res);
     }
-
-
 
 
 }
