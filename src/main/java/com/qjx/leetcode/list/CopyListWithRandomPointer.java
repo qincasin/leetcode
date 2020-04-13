@@ -6,12 +6,12 @@ import java.util.Map;
 /**
  * Created by qincasin on 2020/3/29.
  */
-class RandomListNode {
-    int label;
-    RandomListNode next, random;
+class Node {
+    int val;
+    Node next, random;
 
-    public RandomListNode(int x) {
-        this.label = x;
+    public Node(int x) {
+        this.val = x;
     }
 }
 
@@ -20,14 +20,14 @@ public class CopyListWithRandomPointer {
      * time : O(n);
      * space : O(n);
      */
-    public  RandomListNode copyRandomList(RandomListNode head) {
+    public Node copyRandomList(Node head) {
         //key 存储 当前的 node ，value 存储 复制之后的node
-        Map<RandomListNode, RandomListNode> map = new HashMap<>();
-        RandomListNode cur = head;
+        Map<Node, Node> map = new HashMap<>();
+        Node cur = head;
 
         //复制 data信息
         while (cur != null) {
-            map.put(cur, new RandomListNode(cur.label));
+            map.put(cur, new Node(cur.val));
             cur = cur.next;
         }
         //再次 loop
