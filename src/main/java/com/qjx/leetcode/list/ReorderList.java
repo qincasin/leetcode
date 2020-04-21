@@ -2,6 +2,8 @@ package com.qjx.leetcode.list;
 
 import com.qjx.leetcode.common.ListNode;
 
+import java.util.Stack;
+
 /**
  * <pre>
  * Created by qincasin on 2020/4/19.
@@ -50,10 +52,11 @@ public class ReorderList {
         }
         System.out.println(head);
     }
+
     //reverse
     private ListNode reverse(ListNode head) {
         ListNode newHead = null;
-        while (head!=null){
+        while (head != null) {
             ListNode next = head.next;
             head.next = newHead;
             newHead = head;
@@ -61,6 +64,7 @@ public class ReorderList {
         }
         return newHead;
     }
+
     //findMid
     private ListNode findMid(ListNode head) {
         ListNode fast = head;
@@ -72,12 +76,14 @@ public class ReorderList {
         return slow;
     }
 
+
+
     public static void main(String[] args) {
         ListNode node = new ListNode(1);
         node.next = new ListNode(2);
         node.next.next = new ListNode(3);
         node.next.next.next = new ListNode(4);
-//        node.next.next.next.next = new ListNode(5);
+        node.next.next.next.next = new ListNode(5);
         ReorderList solution = new ReorderList();
         solution.reorderList(node);
     }
