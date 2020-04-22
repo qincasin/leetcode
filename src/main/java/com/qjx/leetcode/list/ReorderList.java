@@ -85,6 +85,50 @@ public class ReorderList {
         node.next.next.next = new ListNode(4);
         node.next.next.next.next = new ListNode(5);
         ReorderList solution = new ReorderList();
-        solution.reorderList(node);
+        solution.reorderList2(node);
+    }
+
+
+    public void reorderList2(ListNode head) {
+        if(head==null){
+            return ;
+        }
+
+        //找到中间点
+        ListNode mid = getMid(head);
+        ListNode l2 = mid.next;
+        mid.next = null;
+        //翻转
+        l2 = reverse2(l2);
+        //重组
+        ListNode l1 = head;
+
+        while (l1!=null && l2!=null){
+            ListNode next = l1.next;
+            l1.next = l2;
+            l2 = l2.next;
+            l1.next.next = next;
+            l1 = next;
+        }
+    }
+
+    private ListNode getMid(ListNode head){
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast!=null && fast.next !=null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    private ListNode reverse2(ListNode node){
+        ListNode newHead = null;
+        while(node!=null){
+            ListNode next = node.next;
+            node.next = newHead;
+            newHead = node;
+            node = next;
+        }
+        return newHead;
     }
 }
