@@ -22,6 +22,7 @@ public class RemoveLinkedListElements {
                 cur = cur.next;
             }
         }
+        
         return (head.val == val) ? head.next : head;
     }
 
