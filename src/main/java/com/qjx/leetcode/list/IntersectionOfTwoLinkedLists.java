@@ -2,6 +2,9 @@ package com.qjx.leetcode.list;
 
 import com.qjx.leetcode.common.ListNode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by qincasin on 2020/3/29.
  * 160. Intersection of Two Linked Lists
@@ -56,7 +59,7 @@ public class IntersectionOfTwoLinkedLists {
 
         while (a != b) {
             //a 走到头 就走 b ，b走到头就a
-            a = a == null ? headB: a.next;
+            a = a == null ? headB : a.next;
             b = b == null ? headA : b.next;
         }
         return a;
@@ -73,7 +76,63 @@ public class IntersectionOfTwoLinkedLists {
         ListNode listNode2 = new ListNode(3);
         listNode2.next = new ListNode(2);
         listNode2.next.next = new ListNode(4);
-        ListNode intersectionNode = getIntersectionNode(listNode, listNode2);
+        ListNode intersectionNode = getIntersectionNode2(listNode, listNode2);
         System.out.println(intersectionNode);
     }
+
+    public static ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        //a走完 重新走b
+
+        //b走完 重新走a
+        //直到 a和b相同
+        ListNode a = headA;
+        ListNode b = headB;
+        while (a != b) {
+            if (a == null) {
+                a = headB;
+            } else {
+                a = a.next;
+            }
+            if (b == null) {
+                b = headA;
+            } else {
+                b = b.next;
+            }
+        }
+        return a;
+    }
+
+
+    /**
+     * hash 找到第一个 出现的  就是所求节点
+     *
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public static ListNode getIntersectionNode3(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+
+        Set<ListNode> set = new HashSet<>();
+
+        while (headA != null) {
+            set.add(headA);
+            headA = headA.next;
+        }
+
+        while (headB != null) {
+            if (set.contains(headB)) {
+                return headB;
+            }
+            headB = headB.next;
+        }
+        return null;
+    }
+
+
 }
