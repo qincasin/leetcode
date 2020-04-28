@@ -66,13 +66,55 @@ public class PalindromeLinkedList {
     }
 
 
-
     public static void main(String[] args) {
         PalindromeLinkedList solution = new PalindromeLinkedList();
-        ListNode node = new ListNode(10);
-        node.next = new ListNode(11);
-        System.out.println(solution.reverse(node));
+        ListNode node = new ListNode(1);
+        node.next = new ListNode(1);
+        node.next.next = new ListNode(2);
+        node.next.next.next = new ListNode(1);
+        boolean result = solution.isPalindrome2(node);
+        System.out.println(result);
+//        System.out.println(solution.reverse(node));
 
+    }
+
+
+    public boolean isPalindrome2(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        //reverse
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        fast= head;
+        //mid = slow
+        slow = reverse2(slow);
+
+        //比对
+
+        while (slow != null) {
+            if (slow.val!=fast.val) {
+                return false;
+            }
+            slow = slow.next;
+            fast= fast.next;
+        }
+        return true;
+    }
+
+    private ListNode reverse2(ListNode node) {
+        ListNode pre = null;
+        while (node != null) {
+            ListNode next = node.next;
+            node.next = pre;
+            pre = node;
+            node = next;
+        }
+        return pre;
     }
 
 
