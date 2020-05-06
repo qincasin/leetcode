@@ -23,6 +23,15 @@
 
 
 
+    <repositories>
+        <repository>
+            <id>dreamspark</id>
+            <name>Dreamspark Pulic Repository</name>
+            <url>https://maven.dreamspark.com.cn/repository/maven-releases/</url>
+        </repository>
+    </repositories>
+
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/log4j/log4j -->
         <dependency>
@@ -37,7 +46,11 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
         <!-- <scope>test</scope> -->
-
+        <dependency>
+            <groupId>cn.com.dreamspark</groupId>
+            <artifactId>duplicate-check</artifactId>
+            <version>LATEST</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
@@ -138,6 +151,16 @@
             </plugins>
 
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>
