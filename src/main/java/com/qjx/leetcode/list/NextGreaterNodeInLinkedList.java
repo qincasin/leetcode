@@ -11,30 +11,23 @@ import java.util.Stack;
  */
 public class NextGreaterNodeInLinkedList {
     int[] nextLargerNodes(ListNode head) {
-
-        ListNode dummy = head;
-
-        while (dummy.next != null) {
-            boolean flag = false;
-            ListNode next = dummy.next;
-            while (next.next != null && next.val <= dummy.val) {
-                next = next.next;
-                flag = true;
-                if (next.next == null) {
-                    flag = true;
-                }
-            }
-            if (!flag) {
-                System.out.println(0);
-            } else {
-                System.out.println(next.val);
-            }
-            dummy = dummy.next;
+        List<Integer> list = new ArrayList<>();
+        while (head != null){
+            list.add(head.val);
+            head = head.next;
         }
-        System.out.println(0);
 
+        System.out.println(list);
 
-        return new int[2];
+        int[] res = new int[list.size()];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < list.size(); i++) {
+            while (!stack.isEmpty() && list.get(stack.peek()) < list.get(i)){
+                res[stack.pop()] = list.get(i);
+            }
+            stack.push(i);
+        }
+        return res;
     }
 
 
@@ -68,7 +61,7 @@ public class NextGreaterNodeInLinkedList {
 //        ListNode node = new ListNode(2, new ListNode(1,new ListNode(5)));
         ListNode node = new ListNode(2, new ListNode(7, new ListNode(4, new ListNode(3, new ListNode(5)))));
         NextGreaterNodeInLinkedList solution = new NextGreaterNodeInLinkedList();
-        int[] result = solution.nextLargerNodes2(node);
+        int[] result = solution.nextLargerNodes(node);
         System.out.println(Arrays.toString(result));
 
         Stack<Integer> stack = new Stack<>();
