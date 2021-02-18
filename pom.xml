@@ -18,7 +18,7 @@
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <junit-vintage.version>${junit.version}.2</junit-vintage.version>
         <sping-test-junit5.version>1.0.2</sping-test-junit5.version>
-        <jackson.version>2.10.3</jackson.version>
+        <jackson.version>2.10.5.1</jackson.version>
     </properties>
 
 
