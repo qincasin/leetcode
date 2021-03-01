@@ -72,6 +72,15 @@ public class NumberOf1Bits {
         NumberOf1Bits solution = new NumberOf1Bits();
 
         System.out.println(solution.hammingWeight(11));
+        System.out.println(solution.bitCount(11));
+    }
+
+
+    public  int bitCount(int n){
+        n = n - ((n >>> 1) & 0x55555555);
+        n = (n & 0x33333333) + ((n >>> 2) & 0x33333333);
+        n = (n + (n >>> 4)) & 0x0F0F0F0F;
+        return (n * 0x01010101) >>> 24;
     }
 
 
