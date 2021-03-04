@@ -1,5 +1,7 @@
 package com.qjx.leetcode.list;
 
+import lombok.ToString;
+
 import java.util.HashSet;
 
 /**
@@ -37,6 +39,7 @@ import java.util.HashSet;
  * G is a subset of all values in the linked list.
  * </pre>
  */
+@ToString
  class ListNode {
      int val;
      ListNode next;
