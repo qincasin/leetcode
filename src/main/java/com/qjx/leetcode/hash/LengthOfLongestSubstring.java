@@ -56,9 +56,9 @@ public class LengthOfLongestSubstring {
                 fre[s.charAt(right+1)] ++;
                 right++;
             }else {
-//                fre[s.charAt(left)]--;
-//                left++;
-                fre[s.charAt(++left)]--;
+                fre[s.charAt(left)]--;
+                left++;
+//                fre[s.charAt(++left)]--;
             }
             result = Math.max(result,right-left+1);
         }
