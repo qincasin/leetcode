@@ -72,9 +72,54 @@ public class ReverseLinkedList {
         node.next.next.next = new ListNode(4);
         node.next.next.next.next = new ListNode(5);
         System.out.println(node);
-        ListNode res = solution.reverseList3(node);
+        ListNode res = solution.reverseList4(node);
         System.out.println(res);
         System.out.println(new Date());
     }
+
+
+    /**
+     * 迭代解法
+     * 时间复杂度O(n) n为链表的长度
+     * 空间复杂度O(1)
+     * @param head
+     * @return
+     */
+    public ListNode reverseList4(ListNode head){
+        ListNode pre = null;
+        while (head!=null){
+            ListNode next = head.next; //保存下一个节点
+            head.next = pre;  //让每一次的当前节点的下一个节点都指向pre  也就是 1-->null   原来是 1-->2-->3  ；下一次的时候 也就是 2-->pre  也就是==> 2-->1-->null
+            pre = head;  //pre 前进一位
+            head = next; //当前节点往下走一位
+        }
+        return pre;
+    }
+
+    /**
+     * 递归解法
+     * 时间复杂度和空间复杂度均为:O(n)
+     * @return
+     */
+    public ListNode reverseList5(ListNode head){
+        if(head==null || head.next==null){
+            return head;
+        }
+        //cur 代表最后一个节点
+        ListNode cur = reverseList5(head.next);
+        //这里请配合动画演示理解
+        //如果链表是 1->2->3->4->5，那么此时的cur就是5
+        //而head是4，head的下一个是5，下下一个是空
+        //所以head.next.next 就是5->4
+        head.next.next = head;
+        //防止链表循环，需要将head.next设置为空
+        head.next = null;
+        //每层递归函数都返回cur，也就是最后一个节点
+        return cur;
+
+
+
+    }
+
 
 }
