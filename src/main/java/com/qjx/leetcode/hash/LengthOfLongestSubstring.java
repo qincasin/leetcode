@@ -87,4 +87,31 @@ public class LengthOfLongestSubstring {
         System.out.println(result);
     }
 
+
+    /**
+     * 二次尝试
+     * @return
+     */
+    public int lengthOfLongestSubstring2(String s){
+        if(s ==null || s.length()==0){
+            return 0;
+        }
+
+        int[] arr = new int[256];
+        int left = 0;
+        int right = -1;
+        int result = 0;
+        while (left < s.length()) {
+            if (right + 1 < s.length() && arr[s.charAt(right + 1)] == 0) {
+                arr[s.charAt(right + 1)]++;
+                right++;
+            }else {
+                arr[s.charAt(left)]--;
+                left++;
+            }
+            result = Math.max(result,right-left+1);
+        }
+        return result;
+    }
+
 }
