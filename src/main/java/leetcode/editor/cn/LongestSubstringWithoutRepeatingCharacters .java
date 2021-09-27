@@ -56,6 +56,8 @@ import java.util.Set;
 class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
+//        int abcabcbb = solution.lengthOfLongestSubstring("abcabcbb");
+//        System.out.println(abcabcbb);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -63,7 +65,7 @@ class LongestSubstringWithoutRepeatingCharacters {
         public int lengthOfLongestSubstring(String s) {
 
 //            return solutionByHashMap(s);
-            return solutionByHashSet(s);
+            return solutionByHashMap2(s);
         }
 
         /**
@@ -84,7 +86,7 @@ class LongestSubstringWithoutRepeatingCharacters {
                 //注意这个地方是while
                 while (set.contains(s.charAt(i))) {
                     set.remove(s.charAt(j++));
-                    System.out.println("remove:"+s.charAt(j));
+                    System.out.println("remove:" + s.charAt(j));
                 }
                 set.add(s.charAt(i));
                 res = Math.max(res, set.size());
@@ -116,7 +118,28 @@ class LongestSubstringWithoutRepeatingCharacters {
             }
             return res;
         }
+
+        /**
+         * 2021-09-27
+         *
+         * @param s
+         */
+        public int solutionByHashMap2(String s) {
+            Map<Character, Integer> map = new HashMap<>();
+            Integer res = 0;
+            for (int i = 0, j = 0; i < s.length(); i++) {
+                if (map.containsKey(s.charAt(i))) {
+                    j = Math.max(j, map.get(s.charAt(i)) + 1);
+                }
+                map.put(s.charAt(i), i);
+                res = Math.max(res, i - j + 1);
+            }
+            return res;
+        }
+
     }
+
+
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
