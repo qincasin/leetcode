@@ -48,6 +48,15 @@ import com.qjx.leetcode.common.ListNode;
 class AddTwoNumbers {
     public static void main(String[] args) {
         Solution solution = new AddTwoNumbers().new Solution();
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+        ListNode resp = solution.addTwoNumbers(l1, l2);
+        System.out.println(resp);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -62,37 +71,57 @@ class AddTwoNumbers {
      * }
      */
     class Solution {
+        /**
+         * 2021-09-26
+         *
+         * @param l1
+         * @param l2
+         * @return
+         */
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-            ListNode dummy = new ListNode(0);
+            ListNode dummy = new ListNode(-1);
+            int t = 0;
             ListNode cur = dummy;
-            int sum = 0;
             ListNode p1 = l1, p2 = l2;
-            while (p1 != null || p2 != null) {
-                if (p1!=null){
-                    sum+=p1.val;
+            while (p1 != null || p2 != null || t != 0) {
+                if (p1 != null) {
+                    t += p1.val;
                     p1 = p1.next;
                 }
-                if (p2!=null){
-                    sum+=p2.val;
+                if (p2 != null) {
+                    t += p2.val;
                     p2 = p2.next;
                 }
-                cur.next = new ListNode(sum%10);
-                sum = sum/10;
+                //求进位
+                cur.next = new ListNode(t % 10);
+                t = t / 10;
                 cur = cur.next;
             }
-            if (sum==1){
-                cur.next = new ListNode(1);
-            }
             return dummy.next;
+        }
 
-
-
-
-
-
-
-
-
+//        public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+//            ListNode dummy = new ListNode(0);
+//            ListNode cur = dummy;
+//            int sum = 0;
+//            ListNode p1 = l1, p2 = l2;
+//            while (p1 != null || p2 != null) {
+//                if (p1 != null) {
+//                    sum += p1.val;
+//                    p1 = p1.next;
+//                }
+//                if (p2 != null) {
+//                    sum += p2.val;
+//                    p2 = p2.next;
+//                }
+//                cur.next = new ListNode(sum % 10);
+//                sum = sum / 10;
+//                cur = cur.next;
+//            }
+//            if (sum == 1) {
+//                cur.next = new ListNode(1);
+//            }
+//            return dummy.next;
 
 
 //            ListNode dummy = new ListNode(0);
@@ -121,9 +150,7 @@ class AddTwoNumbers {
 //            }
 //
 //            return dummy.next;
-        }
-
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
 }
+//leetcode submit region end(Prohibit modification and deletion)
